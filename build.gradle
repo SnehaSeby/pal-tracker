@@ -41,3 +41,6 @@ bootRun.environment([
 test.environment([
         "WELCOME_MESSAGE": "Hello from test",
 ])
+bootJar{
+   archiveFileName ="pal-tracker.jar"
+}
